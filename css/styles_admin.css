@@ -1,0 +1,59 @@
+body {
+  background: rgb(39,39,49);
+  text-align: center;
+}
+
+#logo_admin {
+  height: 50%;
+  width: 50%;
+
+}
+
+@media screen and (max-width: 500px) {
+  #logo_admin {
+    height: 75%;
+    width: 75%;
+  }
+}
+
+textarea {
+  white-space: pre;
+}
+
+
+.admin, .admin_global {
+  background: white;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  color: rgb(39,39,49);
+}
+
+.admin_global .btn {
+  filter: drop-shadow(0 0 0.75rem rgb(39,39,49));
+}
+
+.admin_global a {
+  color: rgb(254,187,72);
+  font-weight: bold;
+}
+
+.help-inline {
+  color: red;
+}
+
+.row {
+  margin: 0;
+}
+
+.gestion {
+  margin: 50px auto;
+  padding-top: 70px;
+  height: 200px;
+  width: 200px;
+}
+
+.vignette_film p {
+  font-size: 20px;
+}

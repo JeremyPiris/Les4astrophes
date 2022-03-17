@@ -1,0 +1,378 @@
+/* ---------------------- SITE ----------------------- */
+
+
+body, html {
+}
+
+a {
+  color: rgb(255,255,255);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.site {
+  background: rgb(39,39,49);
+  min-height: 100vh;
+}
+
+  /* HEADER */
+
+.site_header {
+  background: rgb(39,39,49);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.site_header img {
+  height: 25%;
+  width: 25%;
+}
+
+@media screen and (max-width: 500px) {
+  .site_header img {
+    height: 75%;
+    width: 75%;
+  }
+}
+
+
+
+  /* NAVIGATION */
+
+.site_navigation {
+  background: rgb(39,39,49);
+  text-align: center;
+  border-top: 1px rgb(254,187,72) solid;
+  padding-bottom: 0px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.site_navigation ul {
+  padding-bottom: 0px !important;
+  list-style-type: none;
+}
+
+.site_navigation > li > a {
+  color: rgb(255,255,255) !important;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+
+.navbar-link {
+  color: rgb(255,255,255);
+}
+
+.site_navigation a:hover {
+  color: rgb(254,187,72);
+}
+
+.site_navigation .active {
+  color: rgb(254,187,72);
+  border-bottom: 4px rgb(254,187,72) solid;
+}
+
+.icon-bar {
+  border: 1px solid rgb(254,187,72);
+  background: rgb(254,187,72);
+  margin: 2px;
+}
+
+.site_navigation button {
+  transform: rotate(90deg);
+}
+
+.navbar-collapse {
+  padding: 0;
+  margin-top : -10px;
+	margin-bottom : 0rem;
+
+}
+
+.navbar-toggler {
+	
+
+}
+
+  /* BODY */
+
+.home_body, .videos_body, .theatre_body, .assoetmonde_body {
+  background: rgb(254,187,72);
+}
+
+
+
+
+  /* FOOTER */
+
+.site_footer {
+  background: rgb(39,39,49);
+  color: white;
+  text-align: center;
+}
+
+.footer_part_1 {
+  font-size: 10px;
+  margin: auto 0;
+}
+
+.footer_part_2 {
+  margin: auto 0;
+}
+
+.footer_part_3 {
+  font-size: 12px;
+  margin: auto 0;
+}
+
+
+
+.footerMotOrange {
+  color: rgb(254,187,72);
+}
+
+.site_footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.mentions {
+  text-decoration: none;
+  color: white;
+}
+
+.mentions:hover {
+  color: white;
+}
+
+.mail {
+  color: rgb(254,187,72);
+
+}
+
+.mail:hover {
+  color: white;
+}
+
+
+
+/* ------------------- ONGLETS --------------- */
+
+  /* HOME */
+.home_body {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+  /* VIDEOS */
+.videos_body {
+   text-align: center;
+  padding: 50px 15%;
+
+}
+
+.img-thumbnail {
+	border: 0px;
+	background-color: #11010100;
+	padding : 0px;
+		
+}
+
+.videos_body img {
+    box-shadow: 1px 1px 20px rgb(39,39,49);
+    margin-top: 0px;
+    height: 181px;
+    width: 320px;
+  }
+
+.videos_body a {
+  text-decoration: none;
+  color: #8d692a;
+  text-align : left;
+}
+
+.videos_body a:hover {
+  color: rgb(39,39,49);
+  font-weight: bold;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+
+
+
+
+  /* THEATRE */
+.theatre_body {
+  text-align: center;
+  padding: 50px 15%;
+}
+
+.theatre_body img {
+  height: 300px;
+  width: 200px;
+  box-shadow: 1px 1px 20px rgb(39,39,49);
+}
+
+.theatre_body p {
+  padding-top: 5px;
+}
+
+.theatre_body a {
+  text-decoration: none;
+  color: #8d692a;
+}
+
+.theatre_body a:hover {
+  color: rgb(39,39,49);
+  font-weight: bold;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+
+  /* ASSO ET MONDE */
+
+.notre_bureau, .nos_membres, .nos_partenaires {
+  background: rgb(254,187,72);
+}
+
+
+.notre_bureau .card {
+  text-align: center;
+  background: rgb(254,187,72);
+  border: none;
+}
+
+.notre_bureau .card-body {
+  padding: 0;
+}
+
+.notre_bureau .card img {
+  border: 0px solid white;
+  box-shadow: 1px 1px 20px rgb(39,39,49);
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.notre_bureau .card p {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .notre_bureau .card p {
+    font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .notre_bureau .card p {
+    font-size: 20%;
+  }
+}
+
+.nos_partenaires {
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+}
+
+
+.nos_partenaires div {
+  vertical-align: middle;
+}
+
+.nos_partenaires img {
+  width: 50%;
+}
+
+/* -------------- PAGES DE DETAILS ----------------- */
+
+
+
+.site_details {
+  background: rgb(254,187,72);
+  color: rgb(39,39,49);
+  text-align: center;
+  min-height: 100vh;
+}
+
+.video_details_body, .theatre_details_body {
+  background: rgb(254,187,72);
+}
+
+
+.video_details_header, .theatre_details_header {
+  background: rgba(39,39,49,0.2);
+  padding-top: 5px;
+}
+
+.video_details_header .material-icons, .theatre_details_header .material-icons, .video_details_header span, .theatre_details_header span, .video_details_header h5, .theatre_details_header h5 {
+  vertical-align: middle;
+}
+
+
+.video_details_header a, .theatre_details_header a {
+  text-decoration: none;
+  color: rgb(39,39,49);
+}
+
+.video_details_header a:hover, .theatre_details_header a:hover {
+  color: rgb(39,39,49);
+}
+
+  /* VIDEOS DETAILS */
+.video_details_header {
+
+}
+
+.video_details_body {
+  padding: 50px 15% 7% 15%;
+}
+
+.video_details_body p {
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+  border-top: 1px solid rgb(39,39,49);
+}
+
+
+  /* THEATRE DETAILS */
+
+.card {
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: none;
+
+}
+
+
+.theatre_details_body {
+  text-align: left;
+}
+
+.theatre_details_body .affiche {
+  margin: auto 0;
+}
+
+
+.theatre_details_body img {
+  box-shadow: 1px 1px 20px rgb(39,39,49);
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+  .theatre_details_body p, .theatre_details_body h5 {
+    font-size: 74%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .theatre_details_body p, .theatre_details_body h5 {
+    font-size: 60%;
+    text-align: center;
+  }
+}
